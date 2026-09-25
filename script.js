@@ -22,7 +22,7 @@ $(document).ready(function() {
    * @param {number} heroId - ID del superhéroe a buscar
    */
   function getHeroData(heroId) {
-    const accessToken = 'eedc65d8ff1b1c1edf203ca68ff8ebc4'; 
+    const accessToken = 'YOUR_SUPERHERO_API_TOKEN'; 
     const apiUrl = `https://superheroapi.com/api.php/${accessToken}/${heroId}`;
     
     $.ajax({
